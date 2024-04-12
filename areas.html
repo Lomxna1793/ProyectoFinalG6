@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Áreas de Trabajo</title>
+  <link rel="icon" href="logo5.jpg" type="image/x-icon">
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      /// alert("Se cargó el DOM");
+      const htmlCards = document.querySelectorAll('section div');
+      htmlCards.forEach((card, index) => {
+        card.addEventListener('click', () => {
+          ///alert(`Se hizo click en la tarjeta ${index + 1}`);
+        });
+      });
+    });
+  </script>
+  <script src="FUPNAPIB.js"></script>
+  <link rel="stylesheet" href="FUPNAPIB.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <img src="logo.jpg" alt="Logo" class="logo">
+        <li><a href="index.html">INICIO</a></li>
+        <li>
+          <a href="#" style="color: #3c7408">ACERCA DE NOSOTROS<span class="icon"></span></a>
+          <ul>
+            <li><a href="historia.html">NUESTRA HISTORIA</a></li>
+            <li><a href="areas.html" style="color: #3c7408">AREAS DE TRABAJO</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">QUÉ HACEMOS<span class="icon"></span></a>
+          <ul>
+            <li><a href="programas.html">NUESTROS PROGRAMAS</a></li>
+            <li><a href="galeria.html">GALERIA DE FOTOS</a></li>
+            <li><a href="eventos.html">EVENTOS</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">COLABORA<span class="icon"></span></a>
+          <ul>
+            <li><a href="ayudar.html">COMO AYUDAR</a></li>
+            <li><a href="donaciones.html">DONACIONES</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="preguntas.html">PREGUNTAS FRECUENTES</a></li>
+        <li><a href="contactanos.html">CONTÁCTANOS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <div class="titulo">
+    <img src="titulohis.png" alt="tit" class="tit">
+    <section>
+      <h1>AREAS DE TRABAJO</h1>
+  </div>
+  </section>
+  <section>
+    <div class="contenedor1" onclick="mostrarContenido('contenedor1')">
+      <h2> Manejo del Parque Nacional Pico Bonito (PNPB)</h2>
+      <img src="bosque.png" alt="Imagen 1" width="200">
+      <div class="contenido1" id="contenedor1">
+        <p> Desde su creación la FUPNAPIB, ha trabajado por la protección y manejo sostenible de Parque Nacional Pico
+          Bonito.
+          Por ello unos de sus principales áreas de trabajo se basa en la planificación, administración y monitoreo del
+          área
+          del PNPB, en conjunto con los actores claves para identificar, prevenir y/o mitigar los factores que
+          interfieren con
+          las condiciones de bienestar social y cultural en las comunidades, para lograr una gestión efectiva y eficaz.
+        </p>
+      </div>
+    </div>
+
+    <div class="contenedor1" onclick="mostrarContenido('contenedor3')">
+      <h2>Derecho y monitoreo legal</h2>
+      <img src="monitoreoAmbiental.png" alt="Imagen 2" width="120">
+      <div class="contenido1" id="contenedor3">
+        <p>Por ser una organización que trabaja con un enfoque de derechos humanos; actualmente se esfuerza por lograr
+          que la población
+          y autoridades locales del área del PNPB conozcan y desarrollen un enfoque en derechos humanos y así mismo
+          apliquen las normativas
+          ambientales en defensa de sus territorios. Generando alianzas estratégicas para fortalecer la legislación
+          ambiental y la defensa
+          de los DESCA</p>
+      </div>
+    </div>
+
+    <div class="contenedor1" onclick="mostrarContenido('contenedor4')">
+      <h2>Uso del territorio, Autogestión y Agroecología</h2>
+      <img src="territorio2.png" alt="Imagen 2" width="180">
+      <div class="contenido1" id="contenedor4">
+        <p>La FUPNAPIB, tiene una identidad ligada al territorio desde su constitución legal. Basado en ese enfoque de
+          territorialidad,
+          la FUPNAPIB, trabaja por fortalecer la organización social y territorial a nivel comunitario para lograr el
+          control y uso
+          sostenible de los medios de vida de las comunidades, a través de la organización y formación de productores de
+          las comunidades
+          en áreas prioritarias del PNPB, para la autogestión y resistencia a las amenazas externas, con el ajuste de
+          dichos procesos
+          a la realidad de la pandemia Covid-19 en el país.</p>
+      </div>
+    </div>
+
+    <div class="contenedor1" onclick="mostrarContenido('contenedor5')">
+      <h2>Educación Ambiental</h2>
+      <img src="EducacionAmbiental.png" alt="Imagen 2" width="220">
+      <div class="contenido1" id="contenedor5">
+        <p>Honduras cuenta con un marco legal que promueve la educación ambiental, así como con diseños y algunos
+          documentos operativos
+          de apoyo para los maestros que deberían facilitar la educación de esta temática. No obstante, el tema de
+          educación ambiental
+          se diluye en el día a día de las escuelas sin que se puedan implementar planes pedagógicos efectivos que fijen
+          ese conocimiento
+          en los estudiantes y que eventualmente eso se traduzca en un cambio en la sociedad. Ante ello, la Fundación
+          Vida busca implementar
+          y validar un abordaje dinámico y vivaz de educación ambiental para estudiantes de educación básica, basado en
+          el currículo nacional
+          básico. En este sentido, la Fundación impulsa la educación ambiental en el sistema educativo nacional en 10
+          temas:
+          1.Agua <br>
+          2.Bosques <br>
+          3.Ecosistemas<br>
+          4.Biodiversidad<br>
+          5.Cambio Climático<br>
+          6.Contaminación Antropogénica<br>
+          7.Educación para la Salud<br>
+          8.Reciclaje y Producción Ecológica<br>
+          9.Energía<br>
+          10.Gestión de Riesgos de Desastres<br>
+          La educación y concienciación en estos temas se perfila como una oportunidad para reducir los impactos
+          ambientales a los cuales muchas escuelas públicas de Honduras son vulnerables. Como resultado, se espera que
+          los escolares puedan contribuir a que los impactos ambientales en sus localidades se vean reducidos. Una vez
+          que los niños se hayan empoderado de los conceptos y buenas prácticas para la gestión adecuada de los recursos
+          naturales ellos podrán compartir el conocimiento con sus familiares y vecinos; creando así un efecto
+          multiplicador.<br>
+          Entre los proyectos que se destacan en esta área de trabajo están:<br><br>
+          °Mejoramiento de la Calidad Educativa Formal con Enfoque de Educación Ambiental<br>
+          °Iniciativas de apoyo a la educación ambiental en escuelas</p>
+      </div>
+    </div>
+
+
+    </div>
+  </section>
+  <section>
+    <div class="banner2">
+      <img src="banner2.png" alt="banner2" class="banner2">
+    </div>
+  </section>
+
+  <footer>
+    <img src="footer.png" alt="">
+    <h1>Copyright © 2020 FUNDACION VIDA | HONDURAS. </h1>
+  </footer>
+</body>
+
+</html>
