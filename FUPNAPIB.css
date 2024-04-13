@@ -447,7 +447,6 @@ p {
     background-color: green;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-
 .accordion {
     background-color: green;
     color: white;
@@ -490,6 +489,17 @@ display: block;
 .panel p {
     margin: 0; 
     text-align: center;
+}
+.image-container {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.image-container img {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
+    border-radius: 8px; 
 }
     
 .contenedor1 {
