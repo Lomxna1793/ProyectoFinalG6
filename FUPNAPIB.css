@@ -192,7 +192,7 @@ ul ul li {
 .formulario .derecha img {
     max-width: 100%;
     height: auto;
-    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    width: 100%; 
 }
 .formulario h2{
     color: rgb(6, 145, 2);
@@ -218,7 +218,7 @@ input[type="submit"] {
 }
 
 footer {
-    background-color:rgb(6, 145, 2);/*Color de la parte de abajo de la Pag*/
+    background-color:rgb(6, 145, 2);
     color: white;
     padding: 20px;
     text-align: center;
@@ -332,6 +332,7 @@ p {
 
 .mision,
 .vision {
+    width: 600px;
     display: flex; 
     flex-direction: row; 
     align-items: center; 
@@ -438,7 +439,7 @@ p {
 .connector-line {
     width: 2px;
     background-color: #45db34;
-    margin-left: 24px; /* Ajusta según tus necesidades */
+    margin-left: 24px; 
 }
 
 .container {
