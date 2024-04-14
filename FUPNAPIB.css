@@ -484,6 +484,7 @@ p {
 width: 40%;
 margin: auto; 
 display: block; 
+margin-bottom: 20px;
 }
 
 .panel p {
