@@ -1,7 +1,8 @@
-Edison Augusto Amaya Reyes
-Jose Ramiro Posadas Chavarria
-Maylin Esperanza Chavez Fiallos
-Marcos Rojas
-Katherine Maria Aguilar Espinoza
-Arnold Loed Mena Moreira 
-Wilmer Antonio Ocoha Lagos
+Nombre                         	Numero de Cuenta    User Github
+Wilmer Antonio Ochoa Lagos     	 0823200400150      Wily04
+Arnold Loed Mena Moreira       	 0801200318612      Lomxna1793
+Maylin Esperanza Chavez Fiallos  0104200400772      MayChávez
+Edison Augusto Amaya Reyes     	 1302200300141      Edaar24
+Katerin María Aguilar Espinoza   0714200100158      Aguilarkaterin
+José Ramiro Posadas Chavarría    0801200216693      Ramiposadas
+Marcos Rojas                     0801199511537      Marcosrojas19
